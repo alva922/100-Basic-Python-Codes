@@ -7,6 +7,18 @@ Table of Contents
 
 Setting Up Your Environment
 
+Setting working directory YOURPATH
+import os
+os.chdir('YOURPATH')    # Set working directory
+os. getcwd()
+You’ll need pandas and other Python libraries, which you can install with pip
+python3 -m pip install requests pandas matplotlib
+Within the Jupyter notebook, this command looks as follows
+!pip install requests pandas matplotlib
+You can also use the Conda package manager
+conda install requests pandas matplotlib
+Since we’re using the Anaconda distribution, then you’re good to go! Anaconda already comes with pandas and Jupyter notebook installed.
+
 Download Datasets
 
 Initial Pandas Data QC 
