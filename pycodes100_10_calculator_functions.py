@@ -56,3 +56,15 @@ while True:
           break
     else:
         print("Invalid Input")
+
+#Example I/O:
+Select operation.
+1.Add
+2.Subtract
+3.Multiply
+4.Divide
+Enter choice(1/2/3/4): 1
+Enter first number: 45
+Enter second number: 22
+45.0 + 22.0 = 67.0
+Let's do next calculation? (yes/no): no
